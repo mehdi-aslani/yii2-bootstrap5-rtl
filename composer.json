@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mehdi-aslani\\yii2-bootstrap5-rtl\\": ""
+            "aslani\\yii2-bootstrap5-rtl\\": ""
         }
     }
 }
