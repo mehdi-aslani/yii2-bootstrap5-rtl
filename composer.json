@@ -1,0 +1,30 @@
+{
+    "name": "aslani/yii2-bootstrap5-rtl",
+    "description": "The Twitter Bootstrap 5 Rtl extension for the Yii 2.0 framework",
+    "keywords": [
+        "yii2",
+        "bootstrap",
+        "rtl"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/mehdi-aslani/yii2-bootstrap5-rtl/issues",
+        "source": "https://github.com/mehdi-aslani/yii2-bootstrap5-rtl"
+    },
+    "authors": [
+        {
+            "name": "Mehdi Aslani",
+            "email": "aslani.mhd@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap5": "~2.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "mehdi-aslani\\bootstrap\\": ""
+        }
+    }
+}
