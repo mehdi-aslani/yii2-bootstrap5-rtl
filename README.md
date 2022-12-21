@@ -1,7 +1,7 @@
 Twitter Bootstrap RTL Extension for Yii 2
 =========================================
 
-This is the Twitter Bootstrap RTL (Right to Left) extension for Yii 2. It create an AssetBundle for [Rtl bootstrap](https://github.com/morteza/bootstrap-rtl).
+This is the Twitter Bootstrap RTL (Right to Left) extension for Yii 2. It create an AssetBundle for [Rtl bootstrap](https://github.com/mehdi-aslani/yii2-bootstrap5-rtl.git).
 
 Installation
 ------------
@@ -17,31 +17,40 @@ php composer.phar require --prefer-dist airani/yii2-bootstrap-rtl
 or add
 
 ```
-"airani/yii2-bootstrap-rtl": "*"
+"aslani/yii2-bootstrap5-rtl": "*"
 ```
 
 to the require section of your `composer.json` file.
 
-For using this asset bundle you need just add this line `'airani\bootstrap\BootstrapRtlAsset'` in `$depends` of `AppAsset` or any asset bundels you work that.
+For using this asset bundle you need just add this line `'aslani\bootstrap5\BootstrapRtlAsset'` in `$depends` of `AppAsset` or any asset bundels you work that.
 
 Example:
 
 ```php
-namespace backend\assets;
+namespace app\assets;
 
 use yii\web\AssetBundle;
 
+/**
+ * Main application asset bundle.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @since 2.0
+ */
 class AppAsset extends AssetBundle
 {
+    
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
     ];
+    public $js = [
+    ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
-        'airani\bootstrap\BootstrapRtlAsset',
+        'aslani\bootstrap5\BootstrapRtlAsset',
     ];
 }
 ```
