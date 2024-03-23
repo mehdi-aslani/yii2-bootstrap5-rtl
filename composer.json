@@ -13,6 +13,7 @@
         "issues": "https://github.com/mehdi-aslani/yii2-bootstrap5-rtl/issues",
         "source": "https://github.com/mehdi-aslani/yii2-bootstrap5-rtl"
     },
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Mehdi Aslani",
@@ -24,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "aslani\\yii2-bootstrap5-rtl\\": ""
+            "aslani\\yii2-bootstrap5-rtl\\": "*"
         }
     }
 }
