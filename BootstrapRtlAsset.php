@@ -1,6 +1,6 @@
 <?php
 
-namespace airani\bootstrap;
+namespace aslani\bootstrap;
 
 use yii\web\AssetBundle;
 
