@@ -22,11 +22,11 @@
     ],
     "require": {
         "yiisoft/yii2": ">=2.0.0",
-            "aslani/yii2-bootstrap5-rtl": "dev-master"
+        "aslani/yii2-bootstrap5-rtl": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "aslani\\yii2-bootstrap5-rtl\\": "*"
+            "aslani\\yii2-bootstrap5-rtl\\": ""
         }
     }
 }
