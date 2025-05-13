@@ -17,8 +17,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "aslani\\bootstrap5\\": "src/"
+    "psr-4": {
+        "aslani\\bootstrap5\\": "src/"
         }
     },
     "require": {

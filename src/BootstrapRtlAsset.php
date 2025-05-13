@@ -10,17 +10,25 @@ use yii\web\AssetBundle;
  * @author Mehdi Aslani <aslani.mhd@gmail.com>
  * @since 2.0
  */
-class Bootstrap5RtlAsset extends AssetBundle
+class BootstrapRtlAsset extends AssetBundle
 {
     /**
      * @inheritDoc
      */
-    public $sourcePath = '@bower/bootstrap';
+    public $sourcePath = '@bower/bootstrap/dist';
      /**
      * @inheritDoc
      */
      public $css = [
-        'dist/css/bootstrap.rtl.min.css',
+        'css/bootstrap.rtl.min.css',
+    ];
+
+    public $js = [
+        'js/bootstrap.bundle.min.js',
+    ];
+
+    public $depends = [
+        'yii\web\YiiAsset',
     ];
 
 }
